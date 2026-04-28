@@ -133,7 +133,7 @@ class VusenseClient @Inject constructor(
                 orchestrator.executeCapture(captureConfig ?: com.vusense.sdk.orchestration.CaptureConfig.default())
             }
             
-            Log.d(TAG, "Capture completed, mapping to attestation signature")
+            Log.d(TAG, "Capture completed, processing payload")
             
             // Map to attestation signature
             val attestationSignature = payloadMapper.mapToAttestationSignature(
