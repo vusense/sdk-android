@@ -1,0 +1,3 @@
+[submodule "submodules/shared-protocol"]
+	path = submodules/shared-protocol
+	url = https://github.com/vusense/shared-protocol.git
