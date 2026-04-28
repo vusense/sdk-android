@@ -46,7 +46,8 @@ dependencies {
     // Google Play Integrity API for Device Attestation
     implementation("com.google.android.play:integrity:1.3.0")
 
-    // Note: ProofMode dependencies will be added here once we configure the submodule/AAR
+    // ProofMode integration via JitPack (Pulling from GitHub)
+    implementation("com.github.guardianproject:proofmode:master-SNAPSHOT")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

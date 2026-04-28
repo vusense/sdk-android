@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "vusense-android-sdk"
 include(":sdk")
+include(":app")
